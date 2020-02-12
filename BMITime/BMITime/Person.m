@@ -9,26 +9,28 @@
 #import "Person.h"
 
 @implementation Person
-- (float) heightInMeters {
-    return _heightInMeters;
-}
 
-- (void)setHeightInMeters:(float)h{
-    _heightInMeters = h;
-}
-
-- (int)weightInKilos {
-    return _weightInKilos;
-}
-
-- (void)setWeightInKilos:(int)w {
-    _weightInKilos = w;
-}
-
-- (float)bodyMassIndex {
-    float h = [self heightInMeters];
-    return [self weightInKilos] / (h * h);
-}
+// Accesors implementations not needed with property attributes 
+//- (float) heightInMeters {
+//    return _heightInMeters;
+//}
+//
+//- (void)setHeightInMeters:(float)h{
+//    _heightInMeters = h;
+//}
+//
+//- (int)weightInKilos {
+//    return _weightInKilos;
+//}
+//
+//- (void)setWeightInKilos:(int)w {
+//    _weightInKilos = w;
+//}
+//
+//- (float)bodyMassIndex {
+//    float h = [self heightInMeters];
+//    return [self weightInKilos] / (h * h);
+//}
 
 - (void)addYourselfToArray:(NSMutableArray *)theArray {
     [theArray addObject:self];

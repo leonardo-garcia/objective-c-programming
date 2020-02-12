@@ -11,16 +11,22 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Person : NSObject
-{
-    float _heightInMeters;
-    int _weightInKilos;
-}
 
-// Methods to read and set instance variables
-- (float)heightInMeters;
-- (void)setHeightInMeters:(float)h;
-- (int)weightInKilos;
-- (void)setWeightInKilos:(int)w;
+@property (nonatomic) float heightInMeters;
+@property (nonatomic) int weightInKilos;
+
+// Instance variables approach
+//{
+//    float _heightInMeters;
+//    int _weightInKilos;
+//}
+//
+//// Methods to read and set instance variables
+//- (float)heightInMeters;
+//- (void)setHeightInMeters:(float)h;
+//- (int)weightInKilos;
+//- (void)setWeightInKilos:(int)w;
+//
 
 // Method to calculate the Body Mass Index
 - (float)bodyMassIndex;
