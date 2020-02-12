@@ -1,14 +1,14 @@
 //
-//  Person.m
+//  BMIPerson.m
 //  BMITime
 //
 //  Created by Leonardo Garcia  on 12/02/20.
 //  Copyright © 2020 Leonardo Garcia. All rights reserved.
 //
 
-#import "Person.h"
+#import "BMIPerson.h"
 
-@implementation Person
+@implementation BMIPerson
 
 // Accesors implementations not needed with property attributes 
 //- (float) heightInMeters {

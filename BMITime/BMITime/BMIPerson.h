@@ -1,5 +1,5 @@
 //
-//  Person.h
+//  BMIPerson.h
 //  BMITime
 //
 //  Created by Leonardo Garcia  on 12/02/20.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Person : NSObject
+@interface BMIPerson : NSObject
 
 @property (nonatomic) float heightInMeters;
 @property (nonatomic) int weightInKilos;

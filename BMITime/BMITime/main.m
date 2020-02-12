@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Person.h"
+#import "BMIPerson.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // Creating an instance of Person
-        Person * mikey = [[Person alloc] init];
+        // Creating an instance of BMIPerson
+        BMIPerson * mikey = [[BMIPerson alloc] init];
 
         // Giving the instance variables values using setters
         // [mikey setWeightInKilos:96];
