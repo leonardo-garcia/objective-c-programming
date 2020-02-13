@@ -27,10 +27,10 @@
 //    _weightInKilos = w;
 //}
 //
-//- (float)bodyMassIndex {
-//    float h = [self heightInMeters];
-//    return [self weightInKilos] / (h * h);
-//}
+- (float)bodyMassIndex {
+    float h = [self heightInMeters];
+    return [self weightInKilos] / (h * h);
+}
 
 - (void)addYourselfToArray:(NSMutableArray *)theArray {
     [theArray addObject:self];
