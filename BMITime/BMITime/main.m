@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BMIPerson.h"
+#import "BNREmployee.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // Creating an instance of BMIPerson
-        BMIPerson * mikey = [[BMIPerson alloc] init];
+        // Creating an instance of BNREmployee
+        BNREmployee * mikey = [[BNREmployee alloc] init];
 
         // Giving the instance variables values using setters
         // [mikey setWeightInKilos:96];
@@ -21,6 +21,9 @@ int main(int argc, const char * argv[]) {
         // Using dot notation
         mikey.weightInKilos = 96;
         mikey.heightInMeters = 1.8;
+        mikey.employeeID = 12;
+        NSDateFormatter formatter = [NSDateFormatter]
+        mikey.hireDate = [NSDate dateWithNaturalLanguageString:@"Aug 2nd, 2010"];
 
         // Logging the instance variables using getters
         // float height = [mikey heightInMeters];
